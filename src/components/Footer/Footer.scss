@@ -5,12 +5,10 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 45px;
-  min-width: 100vw;
-  max-width: 100vw;
-
+  background-color: #f7f7f7;
   &__icon {
-    transform: scale(0.25);
+    transform: scale(0.4);
   }
 }

@@ -16,9 +16,10 @@ function App() {
         <main className="main">
           <Switch>
             <Route path="/" exact component={HomePage} />
+            {/* <Route path="offers" exact component={OffersPage} /> */}
           </Switch>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );
