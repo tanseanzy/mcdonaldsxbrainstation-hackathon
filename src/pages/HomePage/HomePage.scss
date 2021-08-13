@@ -26,10 +26,17 @@
 
     &-title {
       color: white;
-      width: 40%;
+      width: 35%;
       font-weight: bold;
       padding-top: 20px;
     }
+
+    &-votetime {
+      color: white;
+      font-size: 10px;
+      padding-top: 15px;
+    }
+
     &-button {
       font-weight: bold;
       height: 40px;
