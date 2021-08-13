@@ -1,0 +1,38 @@
+// @use "../../partials/typography" as *;
+// @use "../../partials/colors" as *;
+// @use "../../partials/mixins" as *;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin: -10px -5px -15px -10px;
+    align-items: center;
+    padding: 0px 0px 0px 40px;
+    &-time {
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    &-mobileicons {
+      transform: scale(0.4);
+      margin-right: -30px;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d6d6d6;
+
+    &-logo {
+      transform: scale(1.25);
+    }
+  }
+}
