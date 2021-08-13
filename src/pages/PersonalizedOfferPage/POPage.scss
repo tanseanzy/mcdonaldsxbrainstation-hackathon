@@ -1,0 +1,26 @@
+.offer {
+    &__top {
+        padding-top: 1rem;
+        padding-bottom: 3.5rem;
+        &--img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90vw;
+        }
+    }
+
+    &__other {
+        &--img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90vw;
+        }
+    }
+
+    &__title {
+        font-size: 17px;
+        margin-left: 1rem;
+    }
+}
