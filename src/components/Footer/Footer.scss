@@ -1,0 +1,16 @@
+// @use "../../partials/typography" as *;
+// @use "../../partials/colors" as *;
+// @use "../../partials/mixins" as *;
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 45px;
+  min-width: 100vw;
+  max-width: 100vw;
+
+  &__icon {
+    transform: scale(0.25);
+  }
+}
