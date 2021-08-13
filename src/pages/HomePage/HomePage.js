@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./HomePage.scss";
 
 // icon/image imports
@@ -15,7 +15,9 @@ export default class HomePage extends Component {
           <p className="main__votecontainer-title">
             Who will win today's meal of the day?
           </p>
-          <button className="main__votecontainer-button">VOTE NOW</button>
+          <Link to="/vote">
+            <button className="main__votecontainer-button">VOTE NOW</button>
+          </Link>
         </div>
         <img className="main__whatsnew" src={whatsnew} alt="What's New?" />
       </div>

@@ -1,6 +1,6 @@
 # App created for the McDonalds x Brainstation 24 Hours Hackathon!
 
-This application should only be run and viewed in the viewport of a maximum width of 320px to simulate the size of a mobile application.
+This application should only be run and viewed in the viewport of a maximum width of 320px to simulate the size of a mobile application. Users will need to npm install the dependicies in the base file, and will then be able to use npm start to view the app. More detail instructions on how to run this application is as follows:
 
 # Getting Started with Create React App
 
