@@ -1,9 +1,7 @@
+@import "./partials/font.scss";
+
 .App {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
   width: 100vw;
-  // min-height: 100vh;
-  // min-width: 300px;
   background-color: #e5e5e5;
+  font-family: "Avenir", sans-serif;
 }

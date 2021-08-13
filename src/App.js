@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import VotingPage from "./pages/VotingPage";
 import VoteConfirmed from "./pages/VoteConfirmed";
+import OfferPage from "./pages/OfferPage/OfferPage";
+import PersonalOfferPage from "./pages/PersonalizedOfferPage/POPage";
 
 function App() {
   return (
@@ -18,9 +20,10 @@ function App() {
         <main className="main">
           <Switch>
             <Route path="/" exact component={HomePage} />
-            {/* <Route path="/offers" exact component={OffersPage} /> */}
             <Route path="/vote" exact component={VotingPage} />
             <Route path="/voteconfirmed" exact component={VoteConfirmed} />
+            <Route path="/offers" exact component={OfferPage} />
+            <Route path="/personaloffers" exact component={PersonalOfferPage} />
           </Switch>
         </main>
         <Footer />

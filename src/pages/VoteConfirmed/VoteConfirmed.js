@@ -23,12 +23,12 @@ export default class VoteConfirmed extends Component {
           </div>
           <div className="confirmed__mid-flex">
             <img className="confirmed__bar" src={bar2} alt="Bar 2" />
-            <p className="confirmed__text">BLT McMuffin</p>
+            <p className="confirmed__text">Egg BLT McMuffin</p>
           </div>
         </div>
         <div div className="confirmed__bot">
           <button className="confirmed__button1">Keep Me Updated</button>
-          <Link to="/offers">
+          <Link to="/personaloffers">
             <button className="confirmed__button2">View Offers</button>
           </Link>
         </div>
