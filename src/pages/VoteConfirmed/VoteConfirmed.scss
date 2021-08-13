@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.confirmed {
+  background-image: url("../../assets/images/voteconfirmedbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 550px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &__top {
+    padding-top: 20px;
+  }
+  &__mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &-flex {
+      width: 40%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__bot {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__title {
+    padding-left: 48px;
+    padding-bottom: 5px;
+  }
+
+  &__subtitle {
+    padding-left: 48px;
+  }
+  &__bar {
+    margin-top: -10px;
+    max-height: 220px;
+    max-width: 52px;
+    transform: scale(0.85);
+  }
+
+  &__text {
+    text-align: center;
+    width: 82%;
+  }
+
+  &__button1 {
+    height: 30px;
+    width: 122px;
+    background-color: #f5bf43;
+    border: 1px solid #f5bf43;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  &__button2 {
+    height: 30px;
+    width: 122px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}

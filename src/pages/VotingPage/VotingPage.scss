@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.votecontainer {
+  background-image: url("../../assets/images/votecontenders.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 550px;
+  color: white;
+  font-weight: bold;
+
+  &__qp {
+    height: 275px;
+    padding: 56px 0 0 25px;
+    width: 120px;
+  }
+
+  &__blt {
+    height: 219px;
+    width: 120px;
+    padding: 0px 0 0 25px;
+  }
+
+  &__title {
+    padding: 0;
+  }
+
+  &__letter {
+    font-size: 60px;
+  }
+
+  &__button1 {
+    font-weight: bold;
+    height: 35px;
+    width: 140px;
+    background-color: #f5bf43;
+    border: 1px solid #f5bf43;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 35px;
+  }
+
+  &__button2 {
+    font-weight: bold;
+    height: 35px;
+    width: 140px;
+    background-color: #f5bf43;
+    border: 1px solid #f5bf43;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 55px;
+  }
+}

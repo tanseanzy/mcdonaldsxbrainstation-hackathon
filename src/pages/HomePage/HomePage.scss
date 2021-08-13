@@ -12,11 +12,11 @@
     background-image: url("../../assets/images/voteimage.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 329px;
-    max-width: 329px;
+    min-width: 332px;
+    max-width: 332px;
     min-height: 175px;
     max-height: 175px;
-    transform: scale(0.89);
+    transform: scale(0.895);
     margin-left: -4px;
     margin-bottom: 25px;
     padding-left: 20px;
@@ -28,9 +28,10 @@
       color: white;
       width: 40%;
       font-weight: bold;
-      padding-top: 10px;
+      padding-top: 20px;
     }
     &-button {
+      font-weight: bold;
       height: 40px;
       width: 140px;
       background-color: #f5bf43;
