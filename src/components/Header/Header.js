@@ -1,5 +1,6 @@
 import "./Header.scss";
 import logo from "../../assets/logo/logo.svg";
+import { Link } from "react-router-dom";
 import mobileIcons from "../../assets/icons/mobileutil.png";
 
 export default function Header() {
@@ -14,7 +15,9 @@ export default function Header() {
         />
       </div>
       <div className="header__bottom">
-        <img className="header__bottom-logo" src={logo} alt="Logo" />
+        <Link to="/">
+          <img className="header__bottom-logo" src={logo} alt="Logo" />
+        </Link>
       </div>
     </header>
   );
